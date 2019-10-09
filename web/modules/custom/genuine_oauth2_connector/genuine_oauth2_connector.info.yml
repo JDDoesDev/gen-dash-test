@@ -1,0 +1,7 @@
+name: 'Genuine Oauth2 Connector'
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - oauth2_client

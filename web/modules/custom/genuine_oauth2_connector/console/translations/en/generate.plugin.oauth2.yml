@@ -1,0 +1,18 @@
+description: 'Generate a plugin to create an Oauth2 Client.'
+options:
+  module: 'The Module name.'
+  class: 'Oauth2 Client class'
+  plugin-id: 'Oauth2 Client id'
+  plugin-secret: 'Oauth2 Client secret'
+  plugin-label: 'Oauth2 Client Label'
+  plugin-url: 'Oauth2 Client URL'
+questions:
+  module: 'Enter the module name'
+  class: 'Enter the Oauth2 Client class name'
+  plugin-id: 'Enter the Oauth2 Client id'
+  plugin-label: 'Enter the Oauth2 Client label'
+  plugin-url: 'Enter the Oauth2 Client url'
+  plugin-states: 'Please select what REST States implement in your Client (GET is selected by default)'
+arguments: {}
+messages:
+    success: 'I am a new generated command.'

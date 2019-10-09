@@ -1,0 +1,11 @@
+services:
+  genuine_oauth2_connector.generate_plugin_oauth2:
+    class: Drupal\genuine_oauth2_connector\Command\Oauth2GenerateCommand
+    arguments: ['@genuine_oauth2_connector.generate_plugin_oauth2_generator']
+    tags:
+      - { name: drupal.command }
+  genuine_oauth2_connector.generate_plugin_oauth2_generator:
+    class: Drupal\genuine_oauth2_connector\Generator\Oauth2GenerateGenerator
+    arguments: []
+    tags:
+      - { name: drupal.generator }

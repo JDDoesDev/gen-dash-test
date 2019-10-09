@@ -1,0 +1,5 @@
+version: "2.1"
+services:
+  cli:
+    environment:
+      - DRUSH_OPTIONS_URI=http://gen-dash-test.docksal

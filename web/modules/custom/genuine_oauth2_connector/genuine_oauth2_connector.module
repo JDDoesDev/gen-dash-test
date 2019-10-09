@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains genuine_oauth2_connector.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function genuine_oauth2_connector_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the genuine_oauth2_connector module.
+    case 'help.page.genuine_oauth2_connector':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
