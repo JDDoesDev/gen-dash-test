@@ -59,13 +59,13 @@ function appendProjects(data) {
             <hr>
             <div class="row mt-3">
               <div class="col">
-                <p class="mb-0">Budget </br><strong>${workspace.price}</strong></p>
+                <p class="mb-0">Price </br><strong>${workspace.price}</strong></p>
               </div>
               <div class="col">
                 <p class="mb-0">Budget Used </br><strong>${workspace.budget_used}</strong></p>
               </div>
               <div class="col">
-                <p class="mb-0">Budget </br><strong>${workspace.budget_remaining}</strong></p>
+                <p class="mb-0">Budget Remaining </br><strong>${workspace.budget_remaining}</strong></p>
               </div>
             </div>
             
