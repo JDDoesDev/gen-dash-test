@@ -9,11 +9,6 @@ class Home extends React.Component {
         }
     }
     componentDidMount() {
-        const headers =  {
-            headers: {
-                Authorization: 'Bearer f86a9cd5fcaf57d48d6f0f322cf4053f26bca04ca8eb82fa242819a58e76b75d'
-            }
-        };
         // fetch('https://cors-anywhere.herokuapp.com/https://api.mavenlink.com/api/v1/workspaces', headers)
         // .then(res => {
         //     if (res.status >= 400) {
