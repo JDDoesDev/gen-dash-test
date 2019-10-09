@@ -1,0 +1,21 @@
+uuid: 5fdd11d7-9f7d-421b-8de8-7a9e34535551
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attached_library
+    - node.type.react_mount_node
+_core:
+  default_config_hash: QWpdWJ21bSdiIwk7v8ni0iHWNkhGQKOP8ZWgxuTTKxw
+id: node.react_mount_node.field_attached_library
+field_name: field_attached_library
+entity_type: node
+bundle: react_mount_node
+label: 'Attached Library'
+description: 'The name of the library that will be attached to this node.  Example `bartik/messages`'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

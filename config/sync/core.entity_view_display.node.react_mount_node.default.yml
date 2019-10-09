@@ -1,0 +1,37 @@
+uuid: 71f1e236-9476-401c-8050-61535eb18d22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.react_mount_node.body
+    - field.field.node.react_mount_node.field_attached_library
+    - field.field.node.react_mount_node.field_div_id
+    - node.type.react_mount_node
+  module:
+    - user
+_core:
+  default_config_hash: wY1PCN3mUet3RMnYJHkRm5pUyIJN2dwvhTW8V8X-LUk
+id: node.react_mount_node.default
+targetEntityType: node
+bundle: react_mount_node
+mode: default
+content:
+  field_attached_library:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_div_id:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  body: true
+  links: true

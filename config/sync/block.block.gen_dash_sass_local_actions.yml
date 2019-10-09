@@ -1,0 +1,20 @@
+uuid: 3e30010b-d30b-43c6-b6de-d9f7f40bfd6c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gen_dash_sass
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: gen_dash_sass_local_actions
+theme: gen_dash_sass
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

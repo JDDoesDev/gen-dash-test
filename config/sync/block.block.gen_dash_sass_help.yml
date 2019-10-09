@@ -1,0 +1,22 @@
+uuid: 4e683272-3051-46c1-801e-49e65fbe4f29
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gen_dash_sass
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gen_dash_sass_help
+theme: gen_dash_sass
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

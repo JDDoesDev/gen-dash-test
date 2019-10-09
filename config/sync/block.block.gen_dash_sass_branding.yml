@@ -1,0 +1,25 @@
+uuid: b9aa1235-ff57-46a5-ac36-991bf89a6da6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gen_dash_sass
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: gen_dash_sass_branding
+theme: gen_dash_sass
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: 0a26a08a-58a9-43e3-86d5-4e00424d92c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.react_mount_node
+  module:
+    - text
+_core:
+  default_config_hash: u86-Ruu652KsOgvGOK4D81MRwaKGFGQXAkoAY37Z9GU
+id: node.react_mount_node.body
+field_name: body
+entity_type: node
+bundle: react_mount_node
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,20 @@
+uuid: 17abd9b2-d937-4b5d-95e9-01e0d6603c1f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gen_dash_sass
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: gen_dash_sass_page_title
+theme: gen_dash_sass
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

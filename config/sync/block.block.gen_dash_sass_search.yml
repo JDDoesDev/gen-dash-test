@@ -1,0 +1,22 @@
+uuid: 122bf7aa-f42b-4d2c-adc9-fe55c101042c
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - gen_dash_sass
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: gen_dash_sass_search
+theme: gen_dash_sass
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
