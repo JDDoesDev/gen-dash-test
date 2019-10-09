@@ -1,13 +1,20 @@
 
-const headers =  {
-	headers: {
-		Authorization: 'Bearer f86a9cd5fcaf57d48d6f0f322cf4053f26bca04ca8eb82fa242819a58e76b75d'
-	}
-};
+$(document).ready(function() {
+  const accordion = $('#accordion')
 
-const accordion = $('#accordion')
+  getProjectList()
 
-fetch('https://cors-anywhere.herokuapp.com/https://api.mavenlink.com/api/v1/workspace_allocations?include=workspace,workspace_resource&per_page=200', headers)
+})
+
+function getProjectList() {
+
+  const headers =  {
+    headers: {
+      Authorization: 'Bearer f86a9cd5fcaf57d48d6f0f322cf4053f26bca04ca8eb82fa242819a58e76b75d'
+    }
+  };
+
+  fetch('https://cors-anywhere.herokuapp.com/https://api.mavenlink.com/api/v1/workspace_allocations?include=workspace,workspace_resource&per_page=200', headers)
 	.then(res => {
 		if (res.status >= 400) {
 			throw new Error("Bad response from servers");
@@ -21,6 +28,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.mavenlink.com/api/v1/work
 	.catch(err => {
 		console.log(err)
   });
+}
   
 function appendProjects(data) {
   let workspaces = Object.values(data.workspaces)
